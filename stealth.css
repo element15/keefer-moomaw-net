@@ -1,0 +1,11 @@
+body {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 36pt;
+	padding-top: 5cm;
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		color: #444;
+	}
+}

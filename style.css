@@ -1,0 +1,26 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: white;
+	color: black;
+}
+
+@media (prefers-color-scheme: light) {
+	body {
+		background-color: white;
+		color: black;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: #333;
+		color: #ccc;
+	}
+	/* Link Colors */
+	a:link, a:hover {
+		color: #99ccff;
+	}
+	a:visited {
+		color: #669999;
+	}
+}
